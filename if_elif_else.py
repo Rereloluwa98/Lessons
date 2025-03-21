@@ -9,7 +9,7 @@
 #operators
 #<,>,==,!=,=>, =<
 meaty= input('Do you eat meat? (y/n):')
-if meaty != 'y':
+if meaty == 'y':
     print('here is the meaty menu...')
 else:
     print('here is the veggie menu...')
